@@ -1,0 +1,1374 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+body {
+
+    background-image: url(/Images/htmlfiveblackcool.png);
+    /*background-color: black; */
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Nunito";
+
+}
+
+/*overlya style*/
+
+.overlay{
+
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.55);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -2;
+
+}
+
+nav {
+
+    text-align: center;
+    background-color:blanchedalmond;
+    font-family:"Nunito";
+    opacity: 60%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 25px;
+
+}
+
+#headerone {
+
+    color:purple;
+    margin-top: 50px;
+    margin-bottom:50px;
+    font-size: 4rem; /*1 rem = 16 px*/ 
+    background-color: rgb(34, 143, 132);
+    width: fit-content;
+    border-radius: 25px;
+    padding: 25px;
+    box-shadow: -15px -15px 5px rgba(255, 255, 255, 0.2),
+                15px 15px 5px rgba(0, 0, 0, 0.2),
+                inset 5px 5px 3px rgba(0, 0, 0, 0.1),
+                inset -5px -5px 3px rgba(255, 255, 255, 0.55);
+
+}
+
+section {
+
+    border: 1 px solid white;
+    margin: 15px;
+    padding: 15px
+}
+
+.one {
+
+    background-color:rgb(153, 32, 233);
+    border: 4px solid white;
+    font-family: 'Nunito';
+    padding-top: 40px;
+    padding-bottom: 25px;
+    color:rgb(255, 255, 255);
+    display: flex;
+    width: auto;
+    border-radius: 25px;
+    border-style: double;
+    box-shadow: -15px -15px 5px rgba(255, 255, 255, 0.2),
+                15px 15px 5px rgba(0, 0, 0, 0.2),
+                inset 5px 5px 3px rgba(0, 0, 0, 0.1),
+                inset -5px -5px 3px rgba(255, 255, 255, 0.55);
+
+}
+
+.two {
+
+    background-color:blueviolet;
+    border: 4px solid white ;
+    font-family: 'Nunito';
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    width: auto;
+    border-radius: 25px;
+    padding-bottom: 25px;
+    border-style: double;
+    box-shadow: -15px -15px 5px rgba(255, 255, 255, 0.2),
+                15px 15px 5px rgba(0, 0, 0, 0.2),
+                inset 5px 5px 3px rgba(0, 0, 0, 0.1),
+                inset -5px -5px 3px rgba(255, 255, 255, 0.55);
+
+} 
+
+.three {
+
+    background-color:blueviolet;
+    border: 4px solid white;
+    font-family:"Nunito";
+    margin-top: 50px;
+    padding-bottom: 25px;
+    color:rgb(255, 255, 255);
+    display: flex;
+    width: auto;
+    border-radius: 25px;
+    border-style: double;
+    box-shadow: -15px -15px 5px rgba(255, 255, 255, 0.2),
+                15px 15px 5px rgba(0, 0, 0, 0.2),
+                inset 5px 5px 3px rgba(0, 0, 0, 0.1),
+                inset -5px -5px 3px rgba(255, 255, 255, 0.55);
+
+}
+
+/* .alpha {
+
+    background-color: lightgray; 
+    opacity: 100%;
+    z-index: -2;
+
+} */
+
+article h1{
+
+    color:black;
+    text-align: left;
+    background-color: blue ;
+
+}
+
+article.all-browser {
+
+    background-color:aliceblue;
+    margin:10px;
+    padding: 10px;
+    color:black;
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+.browser{
+
+    background-color: lightgreen;  
+    border-radius: 15px; /*this is the rounded cornors */  
+
+}
+
+aside{
+
+    background-color: blue;
+    color: yellow;
+    width: 30%;
+    padding: 20px;
+    margin-top: 15px;
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: "Nunito";
+    font-size: 1rem;
+    font-style: italic;
+    border-radius: 25px;
+    border: 2px dashed black;
+    text-align: center;
+    box-shadow: -15px -15px 5px rgba(255, 255, 255, 0.2),
+                15px 15px 5px rgba(0, 0, 0, 0.2),
+                inset 5px 5px 3px rgba(0, 0, 0, 0.1),
+                inset -5px -5px 3px rgba(255, 255, 255, 0.55);
+
+}
+
+.side.five p{
+
+    width: 500px;
+    height: 250px;
+    padding: 15px;
+    margin: 20px;
+    background-color: grey;
+    color: white;
+    font-family: "Nunito";
+    font-size: 1rem;
+    line-height: 20px;
+    border-radius: 25px;
+    border: 2px dashed black;
+    text-align: center;
+    box-shadow: -15px -15px 5px rgba(255, 255, 255, 0.2),
+                15px 15px 5px rgba(0, 0, 0, 0.2),
+                inset 5px 5px 3px rgba(0, 0, 0, 0.1),
+                inset -5px -5px 3px rgba(255, 255, 255, 0.55);
+    padding-top: 55px;
+    padding-bottom: 25px;
+
+}
+
+.side.six p{
+
+    width: 500px;
+    height: 150px;
+    padding: 15px;
+    margin: 20px;
+    background-color: rgb(119, 192, 237);
+    color: white;
+    font-family: "Nunito";
+    font-size: 1rem;
+    line-height: 15px;
+    border-radius: 25px;
+    border: 2px dashed black;
+    text-align: center;
+    box-shadow: -15px -15px 5px rgba(255, 255, 255, 0.2),
+                15px 15px 5px rgba(0, 0, 0, 0.2),
+                inset 5px 5px 3px rgba(0, 0, 0, 0.1),
+                inset -5px -5px 3px rgba(255, 255, 255, 0.55);
+    padding-bottom: 25px;
+    padding-top: 10px;
+
+}
+
+.side.seven p{
+
+    width: 500px;
+    height: 150px;
+    padding: 15px;
+    margin: 20px;
+    background-color: rgb(192, 12, 220);
+    color: white;
+    font-family: "Nunito";
+    font-size: 1rem;
+    line-height: 15px;
+    border-radius: 25px;
+    border: 2px dashed black;
+    text-align: center;
+    box-shadow: -15px -15px 5px rgba(255, 255, 255, 0.2),
+                15px 15px 5px rgba(0, 0, 0, 0.2),
+                inset 5px 5px 3px rgba(0, 0, 0, 0.1),
+                inset -5px -5px 3px rgba(255, 255, 255, 0.55);
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+footer {
+
+    bottom: 0;
+    padding: 15px;
+    background-color: powderblue;
+    border: 2px solid green;
+    margin: 5px;
+
+}
+
+/*
+
+    This will be the drop down menu area 
+
+*/
+
+.menu-bar {
+
+    background-color: turquoise;
+    text-align: center;
+    box-shadow: 10px 5px 14px 0px rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
+
+}
+
+.menu-bar ul {
+
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    font-size: 150%;
+    font-family: "Nunito";
+
+}
+
+.menu-bar ul li {
+
+    width: 175px;
+    margin: 15px;
+    padding: 10px;
+
+}
+
+.menu-bar ul li a {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+.menu-bar i {
+
+    margin: 5px;
+
+}
+
+.menu-bar ul li:hover {
+
+    background-color: white;
+    border-bottom: 2px solid white;
+    color: blueviolet;
+    border-radius: 35px;
+    margin-bottom: 10px;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+
+}
+
+.sub-menu-1 {
+
+    display: none;
+
+}
+
+.menu-bar ul li:hover .sub-menu-1 {
+
+    display: block;
+    position: absolute;
+    background-color: green;
+    margin: 5px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+
+    display: block;
+    margin: 3px;
+    
+} 
+
+/*The second menu*/
+
+.menu-bar {
+
+    background-color: turquoise;
+    text-align: center;
+    box-shadow: 10px 5px 14px 0px rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
+
+}
+
+.menu-bar ul {
+
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    font-size: 150%;
+
+}
+
+.menu-bar ul li {
+
+    width: 175px;
+    margin: 15px;
+    padding: 10px;
+
+}
+
+.menu-bar ul li a {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+.menu-bar i {
+
+    margin: 5px;
+
+}
+
+.menu-bar ul li:hover {
+
+    background-color: white;
+    border-bottom: 2px solid white;
+    color: rgb(226, 131, 43);
+    border-radius: 35px;
+    margin-bottom: 5px;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+
+}
+
+.sub-menu-2 {    
+
+    display: none;
+
+}
+
+.menu-bar ul li:hover .sub-menu-2 {
+
+    display: block;
+    position: absolute;
+    background-color: blue;
+    margin: 5px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+.menu-bar ul li:hover .sub-menu-2 ul {
+
+    display: block;
+    margin: 3px;
+    
+} 
+
+/*The third menu*/
+
+.menu-bar {
+
+    background-color: turquoise;
+    text-align: center;
+    box-shadow: 10px 5px 14px 0px rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
+
+}
+
+.menu-bar ul {
+
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    font-size: 150%;
+
+}
+
+.menu-bar ul li {
+
+    width: 175px;
+    margin: 15px;
+    padding: 10px;
+
+}
+
+.menu-bar ul li a {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+.menu-bar i {
+
+    margin: 5px;
+
+}
+
+.menu-bar ul li:hover {
+
+    background-color: white;
+    border-bottom: 2px solid white;
+    color: rgb(43, 226, 49);
+    border-radius: 35px;
+    margin-bottom: 5px;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+
+}
+
+.sub-menu-3 {    
+
+    display: none;
+
+}
+
+.menu-bar ul li:hover .sub-menu-3 {
+
+    display: block;
+    position: absolute;
+    background-color: brown;
+    margin: 5px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+.menu-bar ul li:hover .sub-menu-3 ul {
+
+    display: block;
+    margin: 3px;
+    
+} 
+
+/*The second menu*/
+
+.menu-bar {
+
+    background-color: turquoise;
+    text-align: center;
+    box-shadow: 10px 5px 14px 0px rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
+
+}
+
+.menu-bar ul {
+
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    font-size: 150%;
+
+}
+
+.menu-bar ul li {
+
+    width: 175px;
+    margin: 15px;
+    padding: 10px;
+
+}
+
+.menu-bar ul li a {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+.menu-bar i {
+
+    margin: 5px;
+
+}
+
+.menu-bar ul li:hover {
+
+    background-color: white;
+    border-bottom: 2px solid white;
+    color: rgb(226, 131, 43);
+    border-radius: 35px;
+    margin-bottom: 5px;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+
+}
+
+.sub-menu-2 {    
+
+    display: none;
+
+}
+
+.menu-bar ul li:hover .sub-menu-3 {
+
+    display: block;
+    position: absolute;
+    background-color: red;
+    margin: 5px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+.menu-bar ul li:hover .sub-menu-3 ul {
+
+    display: block;
+    margin: 3px;
+    
+} 
+
+/*The second menu*/
+
+.menu-bar {
+
+    background-color: turquoise;
+    text-align: center;
+    box-shadow: 10px 5px 14px 0px rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
+
+}
+
+.menu-bar ul {
+
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    font-size: 150%;
+
+}
+
+.menu-bar ul li {
+
+    width: 175px;
+    margin: 15px;
+    padding: 10px;
+
+}
+
+.menu-bar ul li a {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+.menu-bar i {
+
+    margin: 5px;
+
+}
+
+.menu-bar ul li:hover {
+
+    background-color: white;
+    border-bottom: 2px solid white;
+    color: rgb(226, 43, 58);
+    border-radius: 35px;
+    margin-bottom: 5px;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+
+}
+
+.sub-menu-4 {    
+
+    display: none;
+
+}
+
+.menu-bar ul li:hover .sub-menu-4 {
+
+    display: block;
+    position: absolute;
+    background-color: yellow;
+    margin: 5px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+.menu-bar ul li:hover .sub-menu-4 ul {
+
+    display: block;
+    margin: 3px;
+    
+} 
+
+/*The fifth menu*/
+
+.menu-bar {
+
+    background-color: turquoise;
+    text-align: center;
+    box-shadow: 10px 5px 14px 0px rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
+
+}
+
+.menu-bar ul {
+
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    font-size: 150%;
+
+}
+
+.menu-bar ul li {
+
+    width: 175px;
+    margin: 15px;
+    padding: 10px;
+
+}
+
+.menu-bar ul li a {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+.menu-bar i {
+
+    margin: 5px;
+
+}
+
+.menu-bar ul li:hover {
+
+    background-color: white;
+    border-bottom: 2px solid white;
+    color: rgb(43, 226, 217);
+    border-radius: 35px;
+    margin-bottom: 5px;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+
+}
+
+.sub-menu-5 {    
+
+    display: none;
+
+}
+
+.menu-bar ul li:hover .sub-menu-5 {
+
+    display: block;
+    position: absolute;
+    background-color: orange;
+    margin: 5px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+.menu-bar ul li:hover .sub-menu-5 ul {
+
+    display: block;
+    margin: 3px;
+    
+} 
+
+/*this is the sixth*/
+
+.menu-bar {
+
+    background-color: turquoise;
+    text-align: center;
+    box-shadow: 10px 5px 14px 0px rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
+
+}
+
+.menu-bar ul {
+
+    display: inline-flex;
+    list-style: none;
+    color: black;
+    font-size: 150%;
+
+}
+
+.menu-bar ul li {
+
+    width: 175px;
+    margin: 15px;
+    padding: 10px;
+
+}
+
+.menu-bar ul li a {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+.menu-bar i {
+
+    margin: 5px;
+
+}
+
+.menu-bar ul li:hover {
+
+    background-color: white;
+    border-bottom: 2px solid white;
+    color: rgb(43, 226, 217);
+    border-radius: 35px;
+    margin-bottom: 5px;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+
+}
+
+.sub-menu-6 {    
+
+    display: none;
+
+}
+
+.menu-bar ul .sub-menu-1 li:hover .sub-menu-6 {
+
+    display: block;
+    position: absolute;
+    background-color: green;
+    margin: 5px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+.menu-bar ul .sub-menu-1 li:hover .sub-menu-6 ul {
+
+    display: block;
+    margin: 3px;
+    
+} 
+
+/*This is the sub menu 6*/
+
+.menu-bar ul .sub-menu-1 li:hover .sub-menu-6 {
+
+    margin-right: 50px;
+    margin-left: 150px;
+    margin-top: -50px;
+
+}
+
+/*This is the sub menu 7*/
+
+.sub-menu-7 {    
+
+    display: none;
+
+}
+
+.menu-bar ul .sub-menu-1 li:hover .sub-menu-7 {
+
+    display: block;
+    position: absolute;
+    background-color: green;
+    margin: 5px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+.menu-bar ul .sub-menu-1 li:hover .sub-menu-7 ul {
+
+    display: block;
+    margin: 3px;
+    
+} 
+
+.menu-bar ul .sub-menu-1 li:hover .sub-menu-7 {
+
+    margin-right: 50px;
+    margin-left: 150px;
+    margin-top: -50px;
+
+}
+
+/*This is the sub-menu 8*/
+
+.sub-menu-8 {    
+
+    display: none;
+
+}
+
+.menu-bar ul .sub-menu-1 li:hover .sub-menu-8 {
+
+    display: block;
+    position: absolute;
+    background-color: green;
+    margin: 5px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+.menu-bar ul .sub-menu-1 li:hover .sub-menu-8 ul {
+
+    display: block;
+    margin: 3px;
+    
+} 
+
+.menu-bar ul .sub-menu-1 li:hover .sub-menu-8 {
+
+    margin-right: 50px;
+    margin-left: 150px;
+    margin-top: -50px;
+
+}
+
+/*This is the sub-menu 9*/
+
+.sub-menu-9 {    
+
+    display: none;
+
+}
+
+.menu-bar ul .sub-menu-2 li:hover .sub-menu-9 {
+
+    display: block;
+    position: absolute;
+    background-color: blue;
+    margin: 5px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+.menu-bar ul .sub-menu-2 li:hover .sub-menu-9 ul {
+
+    display: block;
+    margin: 3px;
+    
+} 
+
+.menu-bar ul .sub-menu-2 li:hover .sub-menu-9 {
+
+    margin-right: 50px;
+    margin-left: 150px;
+    margin-top: -50px;
+
+}
+
+/*This is the sub-menu 10*/
+
+.sub-menu-10 {    
+
+    display: none;
+
+}
+
+.menu-bar ul .sub-menu-2 li:hover .sub-menu-10 {
+
+    display: block;
+    position: absolute;
+    background-color: blue;
+    margin: 5px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+.menu-bar ul .sub-menu-2 li:hover .sub-menu-10 ul {
+
+    display: block;
+    margin: 3px;
+    
+} 
+
+.menu-bar ul .sub-menu-2 li:hover .sub-menu-10 {
+
+    margin-right: 50px;
+    margin-left: 150px;
+    margin-top: -50px;
+
+}
+
+/*This is the sub-menu 11*/
+
+.sub-menu-11 {    
+
+    display: none;
+
+}
+
+.menu-bar ul .sub-menu-2 li:hover .sub-menu-11 {
+
+    display: block;
+    position: absolute;
+    background-color: blue;
+    margin: 5px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+.menu-bar ul .sub-menu-2 li:hover .sub-menu-11 ul {
+
+    display: block;
+    margin: 3px;
+    
+} 
+
+.menu-bar ul .sub-menu-2 li:hover .sub-menu-11 {
+
+    margin-right: 50px;
+    margin-left: 150px;
+    margin-top: -50px;
+
+}
+
+/*This is the sub-menu 12*/
+
+.sub-menu-12 {    
+
+    display: none;
+
+}
+
+.menu-bar ul .sub-menu-3 li:hover .sub-menu-12 {
+
+    display: block;
+    position: absolute;
+    background-color: red;
+    margin: 5px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+.menu-bar ul .sub-menu-3 li:hover .sub-menu-12 ul {
+
+    display: block;
+    margin: 3px;
+    
+} 
+
+.menu-bar ul .sub-menu-3 li:hover .sub-menu-12 {
+
+    margin-right: 50px;
+    margin-left: 150px;
+    margin-top: -50px;
+
+}
+
+/*This is the sub-menu 13*/
+
+.sub-menu-13 {    
+
+    display: none;
+
+}
+
+.menu-bar ul .sub-menu-3 li:hover .sub-menu-13 {
+
+    display: block;
+    position: absolute;
+    background-color: red;
+    margin: 5px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+.menu-bar ul .sub-menu-3 li:hover .sub-menu-13 ul {
+
+    display: block;
+    margin: 3px;
+    
+} 
+
+.menu-bar ul .sub-menu-3 li:hover .sub-menu-13 {
+
+    margin-right: 50px;
+    margin-left: 150px;
+    margin-top: -50px;
+
+}
+
+/*This is the sub-menu 14*/
+
+.sub-menu-14 {    
+
+    display: none;
+
+}
+
+.menu-bar ul .sub-menu-3 li:hover .sub-menu-14 {
+
+    display: block;
+    position: absolute;
+    background-color: red;
+    margin: 5px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+.menu-bar ul .sub-menu-3 li:hover .sub-menu-14 ul {
+
+    display: block;
+    margin: 3px;
+    
+} 
+
+.menu-bar ul .sub-menu-3 li:hover .sub-menu-14 {
+
+    margin-right: 50px;
+    margin-left: 150px;
+    margin-top: -50px;
+
+}
+
+/*This is the sub-menu 15*/
+
+.sub-menu-15 {    
+
+    display: none;
+
+}
+
+.menu-bar ul .sub-menu-4 li:hover .sub-menu-15 {
+
+    display: block;
+    position: absolute;
+    background-color: yellow;
+    margin: 5px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+.menu-bar ul .sub-menu-4 li:hover .sub-menu-15 ul {
+
+    display: block;
+    margin: 3px;
+    
+} 
+
+.menu-bar ul .sub-menu-4 li:hover .sub-menu-15 {
+
+    margin-right: 50px;
+    margin-left: 150px;
+    margin-top: -50px;
+
+}
+
+/*This is the sub-menu 16*/
+
+.sub-menu-16 {    
+
+    display: none;
+
+}
+
+.menu-bar ul .sub-menu-4 li:hover .sub-menu-16 {
+
+    display: block;
+    position: absolute;
+    background-color: yellow;
+    margin: 5px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+.menu-bar ul .sub-menu-4 li:hover .sub-menu-16 ul {
+
+    display: block;
+    margin: 3px;
+    
+} 
+
+.menu-bar ul .sub-menu-4 li:hover .sub-menu-16 {
+
+    margin-right: 50px;
+    margin-left: 150px;
+    margin-top: -50px;
+
+}
+
+/*This is the sub-menu 17*/
+
+.sub-menu-17 {    
+
+    display: none;
+
+}
+
+.menu-bar ul .sub-menu-4 li:hover .sub-menu-17 {
+
+    display: block;
+    position: absolute;
+    background-color: yellow;
+    margin: 5px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+.menu-bar ul .sub-menu-4 li:hover .sub-menu-17 ul {
+
+    display: block;
+    margin: 3px;
+    
+} 
+
+.menu-bar ul .sub-menu-4 li:hover .sub-menu-17 {
+
+    margin-right: 50px;
+    margin-left: 150px;
+    margin-top: -50px;
+
+}
+
+/*This is the sub-menu 18*/
+
+.sub-menu-18 {    
+
+    display: none;
+
+}
+
+.menu-bar ul .sub-menu-5 li:hover .sub-menu-18 {
+
+    display: block;
+    position: absolute;
+    background-color: orange;
+    margin: 5px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+.menu-bar ul .sub-menu-5 li:hover .sub-menu-18 ul {
+
+    display: block;
+    margin: 3px;
+    
+} 
+
+.menu-bar ul .sub-menu-5 li:hover .sub-menu-18 {
+
+    margin-right: 50px;
+    margin-left: 150px;
+    margin-top: -50px;
+
+}
+
+/*This is the sub-menu 19*/
+
+.sub-menu-19 {    
+
+    display: none;
+
+}
+
+.menu-bar ul .sub-menu-5 li:hover .sub-menu-19 {
+
+    display: block;
+    position: absolute;
+    background-color: orange;
+    margin: 5px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+.menu-bar ul .sub-menu-5 li:hover .sub-menu-19 ul {
+
+    display: block;
+    margin: 3px;
+    
+} 
+
+.menu-bar ul .sub-menu-5 li:hover .sub-menu-19 {
+
+    margin-right: 50px;
+    margin-left: 150px;
+    margin-top: -50px;
+
+}
+
+/*This is the sub-menu 20*/
+
+.sub-menu-20 {    
+
+    display: none;
+
+}
+
+.menu-bar ul .sub-menu-5 li:hover .sub-menu-20 {
+
+    display: block;
+    position: absolute;
+    background-color: orange;
+    margin: 5px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+.menu-bar ul .sub-menu-5 li:hover .sub-menu-20 ul {
+
+    display: block;
+    margin: 3px;
+    
+} 
+
+.menu-bar ul .sub-menu-5 li:hover .sub-menu-20 {
+
+    margin-right: 50px;
+    margin-left: 150px;
+    margin-top: -50px;
+
+}
+
+#alertone {
+
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    background-color: aqua;
+    font-family: "Nunito";
+    color: aliceblue;
+    box-shadow: -15px -15px 5px rgba(255, 255, 255, 0.2),
+                15px 15px 5px rgba(0, 0, 0, 0.2),
+                inset 5px 5px 3px rgba(0, 0, 0, 0.1),
+                inset -5px -5px 3px rgba(255, 255, 255, 0.55);
+
+}
+
+#button2 {
+
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 12px;
+    border-style: none;
+
+}
